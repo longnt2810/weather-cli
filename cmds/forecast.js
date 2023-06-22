@@ -1,4 +1,3 @@
-require('dotenv').config();
 const ora = require('ora')
 const weatherService = require('../utils/weather_service')
 
@@ -17,7 +16,6 @@ module.exports = async (args) => {
         weather.forecast.forecastday.forEach(item => {
             console.log(`\t${item.date} - Avg: ${item.day.avgtemp_c}° | Low: ${item.day.mintemp_c}° | High: ${item.day.maxtemp_c}° | ${item.day.condition.text}`)
         })
-        // console.log(`\t${weather.current.temp_c}° ${weather.current.condition.text} (Feels Like: ${weather.current.feelslike_c}) `)
     } catch (error) {
         spinner.stop()
         console.error(error)
