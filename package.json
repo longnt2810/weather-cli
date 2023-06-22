@@ -1,0 +1,36 @@
+{
+  "name": "longn-weather-cli",
+  "version": "1.0.0",
+  "description": "A Node CLI application to get the weather information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longnt2810/weather-cli.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "weather": "bin/weather"
+  },
+  "bugs": {
+    "url": "https://github.com/longnt2810/weather-cli/issues"
+  },
+  "homepage": "https://github.com/longnt2810/weather-cli#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "minimist": "^1.2.8",
+    "ora": "^5.4.0"
+  },
+  "keywords": [
+    "weather",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "preferGlobal": true
+}
