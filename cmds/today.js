@@ -1,4 +1,3 @@
-require('dotenv').config();
 const ora = require('ora')
 const weatherService = require('../utils/weather_service')
 

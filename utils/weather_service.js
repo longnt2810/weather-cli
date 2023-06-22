@@ -1,4 +1,3 @@
-require('dotenv').config();
 const axios = require('axios')
 
 const TODAY_URL = 'http://api.weatherapi.com/v1/current.json'
